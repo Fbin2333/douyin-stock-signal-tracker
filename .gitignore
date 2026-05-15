@@ -1,0 +1,17 @@
+node_modules/
+.env
+.DS_Store
+.ai/
+$MEM
+.playwright/
+config/accounts.json
+config/*.local.json
+data/*.db
+data/*.db-*
+data/*.json
+data/*.log
+reports/*.html
+reports/*.csv
+reports/*.md
+tmp/
+*.log

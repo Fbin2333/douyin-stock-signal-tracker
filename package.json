@@ -1,0 +1,37 @@
+{
+  "name": "douyin-stock-signal-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Track A-share stock mentions in Douyin profile comments and evaluate commenter hit rates.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "crawl": "node ./bin/crawl.mjs",
+    "dictionary:build": "node ./bin/dictionary-build.mjs",
+    "classify:comments": "node ./bin/classify-comments.mjs",
+    "resolve:abbreviations": "node ./bin/resolve-abbreviations.mjs",
+    "evaluate": "node ./bin/evaluate.mjs",
+    "report": "node ./bin/report.mjs",
+    "monitor": "node ./bin/monitor.mjs",
+    "monitor:adaptive": "node ./bin/monitor-adaptive.mjs",
+    "monitor:install": "zsh ./scripts/install-launchd.sh",
+    "monitor:probe": "MONITOR_PROBE_ONLY=1 zsh ./scripts/run-monitor.sh",
+    "monitor:run-once": "zsh ./scripts/run-monitor.sh",
+    "alerts:dry-run": "node ./bin/alerts-dry-run.mjs",
+    "test": "node --test",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "better-sqlite3": "12.8.0",
+    "dotenv": "^16.4.7",
+    "pinyin-pro": "^3.28.1",
+    "playwright": "1.58.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.2"
+  }
+}

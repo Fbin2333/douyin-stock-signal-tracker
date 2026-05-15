@@ -1,0 +1,44 @@
+[
+  {
+    "symbol": "605162.SH",
+    "code": "605162",
+    "exchange": "SH",
+    "name": "新中港",
+    "aliases": ["新中港"]
+  },
+  {
+    "symbol": "002639.SZ",
+    "code": "002639",
+    "exchange": "SZ",
+    "name": "雪人集团",
+    "aliases": ["雪人集团", "雪人股份"]
+  },
+  {
+    "symbol": "002272.SZ",
+    "code": "002272",
+    "exchange": "SZ",
+    "name": "川润股份",
+    "aliases": ["川润股份"]
+  },
+  {
+    "symbol": "603076.SH",
+    "code": "603076",
+    "exchange": "SH",
+    "name": "乐惠国际",
+    "aliases": ["乐惠国际"]
+  },
+  {
+    "symbol": "600172.SH",
+    "code": "600172",
+    "exchange": "SH",
+    "name": "黄河旋风",
+    "aliases": ["黄河旋风"]
+  },
+  {
+    "symbol": "002263.SZ",
+    "code": "002263",
+    "exchange": "SZ",
+    "name": "大东南",
+    "aliases": ["大东南"]
+  }
+]
